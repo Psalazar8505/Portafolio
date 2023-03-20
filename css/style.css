@@ -42,7 +42,14 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sección Menu*/
 
 section.menu{
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0px;
+       
+    width: 1136px;
+    height: 88px;
 }
 
 /*Sección Title*/
