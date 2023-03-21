@@ -53,13 +53,10 @@ section.menu{
 /*Sección Title*/
 
 section.title{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px;
-    gap: 208px;
-    color: #464646;
+    display: flex;    
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem   
 }
 
 /*Sección About*/

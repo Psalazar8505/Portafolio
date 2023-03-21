@@ -1,11 +1,20 @@
 .title__network{
-    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
 }
 
 .title__network__item{
-    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 .title__network__link{
-    
+    color: #464646;
 }

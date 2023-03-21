@@ -1,11 +1,28 @@
 .title__container{
-   
+    display: flex;
+    flex-direction: column;    
 }
 
 .title__bio{
-    
+    align-self: stretch;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 55px;
+    margin: 15px 0 15px 0;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
 }
 
 .title__subsection{
-    
+    align-self: stretch;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 15px 0 15px 0;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
 }
