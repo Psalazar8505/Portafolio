@@ -40,28 +40,27 @@ Enlace de la documentación oficial!
 https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Menu*/
-
 section.menu{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
-
-
 /*Sección Title*/
-
 section.title{
     display: flex;    
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 2rem   
+    padding: 4rem;
 }
-
 /*Sección About*/
-
 section.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    gap: 10px;
+    background: #EAF2FD;
+    color: #464646;    
 
 }
 

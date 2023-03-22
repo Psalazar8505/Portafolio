@@ -1,5 +1,6 @@
 .title__profile{
-    width: 368px;
-    height: 368px;
+    width: 275px;
+    height: 275px;
     order: 2;
+    border-radius: 50%;    
 }
