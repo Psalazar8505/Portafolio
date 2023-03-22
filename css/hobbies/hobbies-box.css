@@ -1,0 +1,31 @@
+.hobbies__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+
+    width: 176px;
+    height: 174px;
+    background: #FFFFFF;
+}
+
+.hobbies__img{
+    height: 50px;    
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center; 
+}
+
+.hobbies__name{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #464646;
+}
