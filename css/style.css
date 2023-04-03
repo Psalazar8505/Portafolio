@@ -83,13 +83,19 @@ section.hobbies{
     padding: 0px;
     gap: 32px;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     
 }
 
 /* Experiencia Académica*/
 
 section.academic{
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 32px;
+    background: #EAF2FD;
 }
 
 /* experiencia*/
