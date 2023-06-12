@@ -109,16 +109,6 @@ section.experience{
     background: #F5F5F5;
 }
 
-h2.experience__section__title{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-    text-align: center;
-    color: #464646;
-}
-
 /*Contacto*/
 
 section.formcontato{
@@ -126,16 +116,20 @@ section.formcontato{
     flex-direction: column;
     align-items: center;
     padding: 64px;
-    gap: 10px;
-    width: 1440px;
-    height: 788px;
+    gap: 10px;    
     background: #EAF2FD;
 }
 
 /*footeer*/
 
 section.footer{
-   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 10px;           
+    background: #FFFFFF;    
 }
 
 /* Vamos a desafiarnos trabajando con responsividad?
