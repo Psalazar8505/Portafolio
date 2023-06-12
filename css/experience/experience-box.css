@@ -1,0 +1,14 @@
+.experience__box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 1136px;
+    height: 406px;
+}
+
+.experience__img{
+    width: 752px;
+    height: 406px;
+}

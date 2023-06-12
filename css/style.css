@@ -108,6 +108,16 @@ section.experience{
     gap: 32px;
 }
 
+h2.experience__section__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #464646;
+}
+
 /*Contacto*/
 
 section.formcontato{
