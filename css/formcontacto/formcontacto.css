@@ -1,0 +1,110 @@
+.formcontato__contacto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 64px 0px 0px;
+    gap: 16px;
+    width: 1136px;
+    height: 660px;
+}
+
+.formcontato__img{
+    width: 464px;
+    height: 593px;
+}
+
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 5px;
+    width: 656px;
+    height: 596px;
+}
+
+.formcontato__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+    width: 141px;
+    height: 38px;
+    margin: 5px 0;
+}
+
+.formcontato__subtext{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    width: 656px;
+    height: 38px;
+    margin: 5px 0;
+}
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 656px;
+    height: 397px;
+}
+
+.formcontato__input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 656px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #A2A2A2;
+}
+
+.formcontato__textarea{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 656px;
+    height: 133px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #A2A2A2;
+}
+
+.formcontato__botao{
+    width: 144px;
+    height: 51px;
+    background: #2A7AE4;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
