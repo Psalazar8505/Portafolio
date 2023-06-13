@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="./css/experience/experience-box.css">
     <link rel="stylesheet" href="./css/experience/experiencie-container.css">
     <link rel="stylesheet" href="./css/formcontacto/formcontacto.css">
+    <link rel="stylesheet" href="./css/formcontacto/inputs.css">
     <link rel="stylesheet" href="./css/footer/footer-rodape.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -240,11 +241,11 @@
                     <h2 class="formcontato__title">Contacto</h2>
                     <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
                     <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
-                    <form class="formcontato__form" name="form">
-                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
-                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                        <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
-                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
+                    <form class="formcontato__form" name="form">     
+                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" required data-tipo="nombre" minlength="5" maxlength="50">
+                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail" required data-tipo="email">
+                        <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto" required data-tipo="asunto" minlength="5" maxlength="50">
+                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje" required data-tipo="mensaje" minlength="20" maxlength="500"></textarea>
                         <button type="submit" class="formcontato__botao">Enviar mensaje</button>
                     </form>
                 </div>
